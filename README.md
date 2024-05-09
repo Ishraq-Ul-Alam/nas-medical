@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![alt text](<project nas.png>)
+![alt text](nas2.png)
+![alt text](nas3.png)
+![alt text](nas4.png)
+![alt text](nas5.png)
+![alt text](nas6.png)
 
-## Getting Started
+# Medical Web App Appointment Booking System
 
-First, run the development server:
+## Introduction
 
-```bash
+Welcome to the documentation for the Medical Web App Appointment Booking System! This document provides instructions on how to set up and run the project locally.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your local machine:
+
+- Node.js
+- npm or yarn
+- MySQL database server
+- Strapi backend server
+- Git
+
+## Installation
+
+1. Clone the GitHub repository:
+   ```bash
+   git clone https://github.com/your-username/medical-appointment-system.git
+   ```
+
+Navigate to the project directory:
+cd medical-appointment-system
+
+Install dependencies:
+
+npm install
+
+Sure! Here's the content formatted as a README.md file:
+
+markdown
+
+# Medical Web App Appointment Booking System
+
+## Introduction
+
+Welcome to the documentation for the Medical Web App Appointment Booking System! This document provides instructions on how to set up and run the project locally.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your local machine:
+
+- Node.js
+- npm or yarn
+- MySQL database server
+- Strapi backend server
+- Git
+
+## Installation
+
+1. Clone the GitHub repository:
+   ```bash
+   git clone https://github.com/your-username/medical-appointment-system.git
+   Navigate to the project directory:
+   bash
+   ```
+
+cd medical-appointment-system
+Install dependencies:
+bash
+
+npm install
+Configuration
+Database Setup:
+Create a MySQL database for the project.
+Update the database configuration in the .env file with your database credentials.
+Strapi Backend Setup:
+Install Strapi globally:
+bash
+
+npm install -g strapi@latest
+Start the Strapi server:
+bash
+
+cd backend
+strapi develop
+Frontend Setup:
+Update the API endpoint in the .env.local file with your Strapi backend URL.
+Running the Application
+Start the Next.js frontend server:
+bash
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Access the application in your web browser at http://localhost:3000.
+Additional Commands
+Build the production-ready frontend:
+bash
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+npm run build
+Run tests:
+bash
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+npm test
+Contributing
+If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request.
